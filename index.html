@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Energia Solar</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Histórico de Geração x Consumo de energia elétrica
+        </h1>
+        
+    </header>
+    <main>
+        <section>
+            <input type="search" placeholder="Digite o ano desejado. (Disponíveis entre 2022 à 2024)" id="campo-pesquisa">
+            <h2>
+                <button type="submit" onclick="pesquisar()">Pesquisar</button>
+                <button type="submit" onclick="limpar()">Limpar</button>
+            </h2>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- //Aqui serão inseridos os itens que vem do app.js -->
+        </section>
+        <section class="item-total" id="item-total">
+            <!-- //Aqui serão inseridos os itens que vem do app.js -->
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Delta Geração x Consumo de energia elétrica. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: sol@solares.com.br (E-mail e dados fictícios)</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
